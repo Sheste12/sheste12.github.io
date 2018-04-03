@@ -1,0 +1,79 @@
+.th1 {
+ border-radius: 12px;
+ height: 200px;
+ top: -60px;
+ border: 3px solid #3498db;
+ position: relative;
+}
+.th2 {
+ border-radius: 12px;
+
+ height: 200px;
+ top: -60px;
+ border: 3px solid red;
+ position: relative;
+}
+.td1 {
+ font-size: 12pt;
+ border-radius: 12px;
+ border: 3px solid #3498db;
+ width: 150px;
+ height: 300px;
+}
+
+.td2 {
+	font-size: 12pt;
+	border-radius: 12px;
+	border: 3px solid #FF8C00;
+	width: 150px;
+	height: 300px;
+}
+
+.d12  {
+ box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+ width: 100px; height: 35px;
+ left: 80%;
+ position: relative;
+ top: 5%;
+ transform: skew(-25deg);
+ border-radius: 10px;
+ background: red;
+}
+
+.p1 {
+	margin:0 35% 0 35%;
+	width:60%;
+	font-family:helvetica;
+}
+.p2 {
+	flot:left;
+	color: red;
+	font-family:helvetica;
+}
+.rouble  {
+	vertical-align:middle;
+	display: inline-block;
+	width: 12px;
+	height: 11px;
+	background: url(rub.png) no-repeat;
+	margin-left: 4px;
+}
+
+.p3 {
+	color: #3498db;
+	font-family:helvetica;
+	font-size: 18pt;
+}
+
+.p12 {
+	font-family:helvetica;
+}
+
+.p_prace {
+	font-size: 14pt;
+	font-family:helvetica;
+	height: 35px;
+	line-height: 35px;
+	text-align:center;
+	color:white;
+}
