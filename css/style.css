@@ -1,24 +1,25 @@
 .th1 {
- border-radius: 12px;
- height: 200px;
- top: -60px;
- border: 3px solid #3498db;
- position: relative;
+	border-radius: 12px;
+	height: 200px;
+	top: -60px;
+	border: 3px solid #3498db;
+	position: relative;
 }
 .th2 {
- border-radius: 12px;
+	border-radius: 12px;
 
- height: 200px;
- top: -60px;
- border: 3px solid red;
- position: relative;
+	height: 200px;
+	top: -60px;
+	border: 3px solid red;
+	position: relative;
 }
 .td1 {
- font-size: 12pt;
- border-radius: 12px;
- border: 3px solid #3498db;
- width: 150px;
- height: 300px;
+	font-size: 12pt;
+	border-radius: 12px;
+	border: 3px solid #3498db;
+	width: 150px;
+	height: 300px;
+
 }
 
 .td2 {
@@ -30,14 +31,14 @@
 }
 
 .d12  {
- box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
- width: 100px; height: 35px;
- left: 80%;
- position: relative;
- top: 5%;
- transform: skew(-25deg);
- border-radius: 10px;
- background: red;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+	width: 100px; height: 35px;
+	left: 80%;
+	position: relative;
+	top: 5%;
+	transform: skew(-25deg);
+	border-radius: 10px;
+	background: red;
 }
 
 .p1 {
@@ -63,10 +64,12 @@
 	color: #3498db;
 	font-family:helvetica;
 	font-size: 18pt;
+	margin-top: 20px;
 }
 
 .p12 {
 	font-family:helvetica;
+	height: 150px;
 }
 
 .p_prace {
@@ -76,4 +79,90 @@
 	line-height: 35px;
 	text-align:center;
 	color:white;
+}
+
+table {
+	border-collapse: initial;
+	margin: 0 auto;
+	border-spacing: 35px 35px !important;
+	padding: 35px !important;
+}
+
+.leftMenuItem {
+	width: 300px;
+	float: left;
+	font-size: 16pt;
+}
+
+.rightMenuItem {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 300px;
+}
+
+.menuItem {
+	margin: 5px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	display: block;
+	color: white;
+
+}
+
+.nav-link {
+	padding-right: 1em !important;
+	padding-left: 1em !important;
+	font-size: 15pt;
+	margin-top: 50px;
+}
+
+.firstItem {
+	background-color: #3498db;
+	border: 3px solid #3498db;
+	border-radius: 12px;
+}
+
+.secondItem {
+	background-color: red;
+	border: 3px solid red;
+	border-radius: 12px;
+}
+
+.thirdItem {
+	background-color: #FF8C00;
+	border: 3px solid #FF8C00;
+	border-radius: 12px;
+}
+
+footer {
+	min-height: 150px;
+	margin-top: 50px;
+	background-color: #edeef0;
+	padding: 10px 200px 50px 200px;
+}
+
+.rouble {
+
+}
+
+.footer {
+	margin-top: 20px;
+
+}
+
+.leftFooterItem {
+	width: 200px;
+	float: left;
+	font-size: 16pt;
+}
+
+.rightFooterItem {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 350px;
+}
+
+.footerItem {
+	font-weight: bold;
+	display: block;
 }
