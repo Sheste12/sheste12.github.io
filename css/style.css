@@ -33,7 +33,7 @@
 .d12  {
 	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 	width: 100px; height: 35px;
-	left: 80%;
+	left: 60%;
 	position: relative;
 	top: 5%;
 	transform: skew(-25deg);
@@ -139,10 +139,6 @@ footer {
 	margin-top: 50px;
 	background-color: #edeef0;
 	padding: 10px 200px 50px 200px;
-}
-
-.rouble {
-
 }
 
 .footer {
